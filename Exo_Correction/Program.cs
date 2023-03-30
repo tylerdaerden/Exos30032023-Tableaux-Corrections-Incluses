@@ -49,6 +49,8 @@
 
 //Console.WriteLine($"nombre de boucles : {compteur}");
 
+//Console.Readline();
+
 #endregion
 
 #region Exo 1.2
