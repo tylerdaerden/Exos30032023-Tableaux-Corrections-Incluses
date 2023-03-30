@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo_Correction", "Exo_Correction\Exo_Correction.csproj", "{3C8B9CC4-DF2B-49A2-BB34-9DCA573604B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exos", "Exo_Correction\Exos.csproj", "{3C8B9CC4-DF2B-49A2-BB34-9DCA573604B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corrections_Thierry", "Corrections_Thierry\Corrections_Thierry.csproj", "{8696387E-D089-44CB-8A63-6146DA7DA751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corrections_Thierry", "Corrections_Thierry\Corrections_Thierry.csproj", "{8696387E-D089-44CB-8A63-6146DA7DA751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
