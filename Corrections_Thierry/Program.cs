@@ -124,37 +124,55 @@
 
 #region Fonction de tri
 {
-    //int nombre;
+//int nombre;
 
-    //do
-    //{
-    //    Console.Write("Entrez le nombre d'éléménts entiers de votre tableau (au moins 10) : ");
-    //} while (!int.TryParse(Console.ReadLine(), out nombre) || nombre < 10);
+//do
+//{
+//    Console.Write("Entrez le nombre d'éléménts entiers de votre tableau (au moins 10) : ");
+//} while (!int.TryParse(Console.ReadLine(), out nombre) || nombre < 10);
 
-    //int[] tableau = new int[nombre];
+//int[] tableau = new int[nombre];
 
-    //for (int i = 0; i < tableau.Length; i++)
-    //{
-    //    tableau[i] = Random.Shared.Next(1000);
-    //}
+//for (int i = 0; i < tableau.Length; i++)
+//{
+//    tableau[i] = Random.Shared.Next(1000);
+//}
 
-    //Console.WriteLine(string.Join(", ", tableau));
+//Console.WriteLine(string.Join(", ", tableau));
 
-    ////Tri simple
-    //for (int i = 0; i < tableau.Length - 1; i++)
-    //{
-    //    for (int j = i + 1; j < tableau.Length; j++)
-    //    {
-    //        if (tableau[j] < tableau[i])
-    //        {
-    //            //swap
-    //            int temp = tableau[j];
-    //            tableau[j] = tableau[i];
-    //            tableau[i] = temp;
-    //        }
-    //    }
-    //}
+////Tri simple
+//for (int i = 0; i < tableau.Length - 1; i++)
+//{
+//    for (int j = i + 1; j < tableau.Length; j++)
+//    {
+//        if (tableau[j] < tableau[i])
+//        {
+//            //swap
+//            int temp = tableau[j];
+//            tableau[j] = tableau[i];
+//            tableau[i] = temp;
+//        }
+//    }
+//}
 
-    //Console.WriteLine(string.Join(", ", tableau));
+//Console.WriteLine(string.Join(", ", tableau));
 }
 #endregion
+
+using
+namespace Correction_Thierry
+
+    
+{
+    struct Celsius
+    {
+        public double Temperature;
+
+        public Fahrenheit Convert()
+        {
+            Fahrenheit fahrenheit;
+            fahrenheit.Temperature = (Temperature * 1.8) + 32;
+            return fahrenheit;
+        }
+    }
+}

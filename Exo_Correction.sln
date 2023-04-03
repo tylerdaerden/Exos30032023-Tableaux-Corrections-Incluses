@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exos", "Exo_Correction\Exos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corrections_Thierry", "Corrections_Thierry\Corrections_Thierry.csproj", "{8696387E-D089-44CB-8A63-6146DA7DA751}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Corrections Thierry", "Corrections Thierry", "{326096E0-176F-4680-9633-4191C34044F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8696387E-D089-44CB-8A63-6146DA7DA751} = {326096E0-176F-4680-9633-4191C34044F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC634A5-60CE-4B91-81C9-6A253CF6DBE4}
